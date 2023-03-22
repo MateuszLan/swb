@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strona w budowie</title>
+</head>
+<body>
+  <div id="swb">
+  <img src="swb.png" alt="Strona w budowie, przepraszamy!" usemap="#mapa" />
+  <br /><map name="mapa">
+  <area onclick="openMap()" coords="360, 790, 695, 850" shape="rectangle">
+  </area>
+  <area href="tel:123 45 67 89" coords="750, 790, 980, 820" shape="rectangle">
+  </area>
+  <area href="mailto:hello@ltb.pl" coords="1070, 790, 1240, 820" shape="rectangle">
+  </area>
+  </map>
+</div>
+<script>
+
+function openMap() {
+  window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.753226704292!2d17.017037465754864!3d51.09456157956953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc26aef60d0eb%3A0x46286462cb3383eb!2sSky%20Tower%20-%20Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1679491384617!5m2!1spl!2spl", "Mapa", "height=500,width=500");
+}
+</script>
+</body>
+</html>
