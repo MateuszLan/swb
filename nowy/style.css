@@ -1,0 +1,13 @@
+h1{
+    font-size: 3.5em;
+    position: absolute;
+    top: 1%;
+    right: 25%;
+    
+}
+img{
+    margin-left: 10%;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
