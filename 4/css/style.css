@@ -1,0 +1,89 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin:0px;
+    padding: 0px;
+    background-size: 100vw 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+img {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+h3:hover{
+    color: rgba(0,146,65,255);
+    font-size: 1.5em;
+    transition-duration: 2s;
+    transition-property: all;
+    margin-left:3%;
+    margin-right:3%;
+    
+}
+
+header{
+    
+    margin: 3%;
+}
+#SWB{
+    margin-top: 7%;
+    font-size: 3vw;
+}
+#SWB h1{
+    position: relative;
+}
+
+#SWB h1::before {
+    content: "STRONA";
+    position: absolute;
+    top: -60%;
+    left: 6%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 7vw;
+    color: rgba(0, 0, 0, 1);
+    z-index: -1;
+    opacity: 0.2;
+}
+#SWB h1::after {
+    content: "W BUDOWIE";
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 7vw;
+    color: rgba(0, 0, 0, 1);
+    z-index: -1;
+    opacity: 0.2;
+}
+#contact{
+    margin-top: 10%;
+    height: 4vh;
+    
+}
+#contact a {
+    font-size: 1.5vw;
+    width: 100vw;
+    
+}
+h3{
+    display: inline;
+    margin:5%;
+    
+}
+hr{
+    margin-top: 2%;
+    width: 80%;
+    text-align: center;
+}
+
+footer h4{
+    font-size: 1vw;
+}

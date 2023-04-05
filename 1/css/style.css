@@ -1,0 +1,25 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin:0px;
+    padding: 0px;
+    background-size: 100vw 100vh;
+}
+img {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+a:hover{
+     cursor : pointer;
+    }
+a{
+    color: blue;
+    font-size: 1.75em;
+    text-align: center;
+}

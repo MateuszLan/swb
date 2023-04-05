@@ -1,0 +1,37 @@
+h1{
+    font-size: 3.50vw;
+    margin-left: 5%;
+    top: 1%;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-top: 4%;
+    float: left;
+}
+img{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 35%;
+    height: auto;
+}
+#tekst{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    height: auto;
+    font-size: 2vw;
+}
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 25%;
+    font-size: 5vh;
+    text-align: center;
+}
+footer a:hover {
+    color: #001376;
+}
+a{
+    color: #363f86;
+}
